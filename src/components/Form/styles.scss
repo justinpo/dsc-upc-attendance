@@ -1,0 +1,35 @@
+@import "../../scss/variables";
+
+.Form {
+  &_card {
+    flex-basis: 40%;
+    height: fit-content;
+  }
+
+  &_button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bold;
+    color: $color-white;
+    background-color: $color-blue;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background-color: $color-blueHover;
+    }
+  }
+
+  &_inputGroup {
+    display: flex;
+
+    .Form_input {
+      &:first-child {
+        margin-right: 16px;
+      }
+    }
+  }
+}

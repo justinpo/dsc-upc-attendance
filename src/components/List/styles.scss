@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+
+.List {
+  max-height: 300px;
+  overflow-y: hidden;
+  position: relative;
+
+  &_card {
+    flex-basis: 40%;
+  }
+
+  &_item {
+    padding: 10px 0;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #d3d3d3;
+
+    &_text {
+      color: $color-black;
+    }
+  }
+}

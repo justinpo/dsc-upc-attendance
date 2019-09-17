@@ -1,0 +1,17 @@
+.Navbar {
+  width: 100%;
+  padding: 20px 0;
+  height: 40px;
+  position: fixed;
+
+  &_container {
+    max-width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+  }
+
+  &_logo {
+    display: flex;
+    height: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+@import "../../scss/variables";
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &_text {
+    color: $color-blue;
+    font-size: 9rem;
+    width: 100%;
+    line-height: 1;
+  }
+
+  &_label {
+    color: $color-black;
+    font-size: 3.5rem;
+    width: 100%;
+    opacity: 0.8;
+    line-height: 1;
+  }
+
+  &_image {
+    width: 60%;
+  }
+}
